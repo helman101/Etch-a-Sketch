@@ -1,0 +1,89 @@
+:root{
+    --grid-colums: 16;
+    --grid-rows: 16;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', cursive;
+    
+}
+
+html {
+    background-color: #545E80;
+    
+
+}
+
+#container {
+    display: grid;
+    width: 350px; 
+    height: 350px;
+    border: solid #A5B8F7 3px;
+    border-radius: 5px;
+    grid-template-columns: repeat(var(--grid-colums), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+}
+
+
+
+#divscont {
+
+    margin-left: 500px;
+    width: 350px; 
+    height: 350px;
+    
+}
+
+
+button {
+
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    background-color: #727375;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    color: #BCBDC2;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+
+.color {
+    height: 21px;
+    width: 60px;
+    margin-left: 5px;
+    border-color: #727375;
+    border-radius: 5px;
+}
+
+#buttons {
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+button:hover {
+
+    box-shadow: 0px 0px 3px 3px #EDEFF5;
+    transition: 0.1s ease;
+    color: #A5B8F7;
+}
+
+.color:hover {
+    box-shadow: 0px 0px 3px 3px #EDEFF5;
+    transition: 0.1s ease;
+
+}
+
+label {
+
+    font-size: 1.5em;
+}
